@@ -1,0 +1,16 @@
+dram_test/.gitignore
+
+.metadata/
+.vscode/
+.analytics
+.Xil/
+
+*.log
+.python-version
+vivado.jou
+
+*.o
+*.so
+*.a
+*.elf
+*.elf.*

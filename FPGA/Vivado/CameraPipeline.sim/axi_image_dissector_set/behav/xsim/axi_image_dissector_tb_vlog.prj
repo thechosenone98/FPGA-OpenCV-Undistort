@@ -1,0 +1,99 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../CameraPipeline.gen/sources_1/bd/top/ipshared/ec67/hdl" --include "../../../../CameraPipeline.gen/sources_1/bd/top/ipshared/ee60/hdl" --include "../../../../CameraPipeline.gen/sources_1/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog" --include "../../../../CameraPipeline.gen/sources_1/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog" --include "/home/zacharie/Software/Xilinx/Vivado/2022.2/data/xilinx_vip/include" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_processing_system7_0_0/sim/top_processing_system7_0_0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_AXIMMvideo2Bytes.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_AXIMMvideo2Bytes_Pipeline_VITIS_LOOP_437_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_Bytes2MultiPixStream.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_Bytes2MultiPixStream_Pipeline_VITIS_LOOP_1262_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_BYTES_PER_PIXEL_ROM_AUTO_1R.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_CTRL_s_axi.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_entry_proc.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_fifo_w2_d4_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_fifo_w6_d3_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_fifo_w8_d2_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_fifo_w9_d4_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_fifo_w12_d2_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_fifo_w192_d2_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_fifo_w512_d10_B.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_flow_control_loop_pipe_sequential_init.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_FrmbufRdHlsDataFlow.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_hls_deadlock_detection_unit.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_hls_deadlock_idx0_monitor.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_MEMORY2LIVE_ROM_AUTO_1R.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_mm_video_m_axi.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_mul_9ns_3ns_12_1_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_MultiPixStream2AXIvideo.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_289_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_289_1_mapComp_ROM_AUTO_1R.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_298_3.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_mux_245_8_1_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_reg_unsigned_short_s.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_regslice_both.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_start_for_Bytes2MultiPixStream_U0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_start_for_MultiPixStream2AXIvideo_U0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog/top_v_frmbuf_rd_0_0_v_frmbuf_rd.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_rd_0_0_1/sim/top_v_frmbuf_rd_0_0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_xbar_0/sim/top_xbar_0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_auto_ds_0/sim/top_auto_ds_0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_auto_ds_1_1/sim/top_auto_ds_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_auto_pc_0/sim/top_auto_pc_0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_auto_pc_1_1/sim/top_auto_pc_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_xbar_1/sim/top_xbar_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_auto_pc_2/sim/top_auto_pc_2.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_auto_cc_0/sim/top_auto_cc_0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_auto_cc_1/sim/top_auto_cc_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_Bytes2AXIMMvideo.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1086_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_BYTES_PER_PIXEL_ROM_AUTO_1R.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_CTRL_s_axi.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_entry_proc.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_fifo_w6_d3_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_fifo_w8_d2_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_fifo_w12_d2_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_fifo_w12_d3_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_fifo_w16_d4_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_fifo_w64_d4_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_fifo_w192_d2_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_fifo_w512_d10_B.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_flow_control_loop_pipe_sequential_init.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_FrmbufWrHlsDataFlow.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_hls_deadlock_detection_unit.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_hls_deadlock_idx0_monitor.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_hls_deadlock_idx1_monitor.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_hls_deadlock_idx2_monitor.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_MEMORY2LIVE_ROM_AUTO_1R.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_mm_video_m_axi.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_mul_9ns_3ns_12_1_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_MultiPixStream2Bytes.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_MultiPixStream2Bytes_Pipeline_VITIS_LOOP_930_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_reg_unsigned_short_s.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_regslice_both.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_start_for_Bytes2AXIMMvideo_U0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_start_for_MultiPixStream2Bytes_U0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_v_frmbuf_wr.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog/top_v_frmbuf_wr_0_0_fifo_w32_d4_S.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_v_frmbuf_wr_0_0/sim/top_v_frmbuf_wr_0_0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_xlconcat_0_1/sim/top_xlconcat_0_1.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_system_ila_0_0/bd_0/ip/ip_0/sim/bd_0696_ila_lib_0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_system_ila_0_0/bd_0/ip/ip_1/bd_0696_g_inst_0_gigantic_mux.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_system_ila_0_0/bd_0/ip/ip_1/sim/bd_0696_g_inst_0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_system_ila_0_0/bd_0/sim/bd_0696.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_system_ila_0_0/sim/top_system_ila_0_0.v" \
+"../../../../CameraPipeline.ip_user_files/bd/top/sim/top.v" \
+"../../../../CameraPipeline.gen/sources_1/bd/top/hdl/top_wrapper.v" \
+"../../../../CameraPipeline.srcs/sources_1/imports/verilog_modules/axi_image_dissector_v2.v" \
+"../../../../../verilog_modules/test_design.v" \
+"../../../../../verilog_modules/my_single_port_bram.v" \
+
+sv xil_defaultlib  --include "../../../../CameraPipeline.gen/sources_1/bd/top/ipshared/ec67/hdl" --include "../../../../CameraPipeline.gen/sources_1/bd/top/ipshared/ee60/hdl" --include "../../../../CameraPipeline.gen/sources_1/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog" --include "../../../../CameraPipeline.gen/sources_1/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog" --include "/home/zacharie/Software/Xilinx/Vivado/2022.2/data/xilinx_vip/include" \
+"../../../../CameraPipeline.srcs/axi_image_dissector_set/imports/testbenches/axi_image_dissector_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

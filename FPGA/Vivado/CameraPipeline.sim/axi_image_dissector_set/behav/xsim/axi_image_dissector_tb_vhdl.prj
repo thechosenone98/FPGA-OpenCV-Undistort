@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_rst_ps7_0_100M_0/sim/top_rst_ps7_0_100M_0.vhd" \
+"../../../../CameraPipeline.ip_user_files/bd/top/ip/top_rst_ps7_0_50M_2/sim/top_rst_ps7_0_50M_2.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../CameraPipeline.gen/sources_1/bd/top/ipshared/ec67/hdl" --include "../../../../CameraPipeline.gen/sources_1/bd/top/ipshared/ee60/hdl" --include "../../../../CameraPipeline.gen/sources_1/bd/top/ip/top_v_frmbuf_rd_0_0_1/hdl/verilog" --include "../../../../CameraPipeline.gen/sources_1/bd/top/ip/top_v_frmbuf_wr_0_0/hdl/verilog" --include "/home/zacharie/Software/Xilinx/Vivado/2022.2/data/xilinx_vip/include" \
+"../../../../CameraPipeline.srcs/sources_1/imports/verilog_modules/axi_image_dissector_v2.v" \
+"../../../../CameraPipeline.srcs/sources_1/imports/verilog_modules/bram_to_axi_stream.v" \
+"../../../../../verilog_modules/my_single_port_bram.v" \
+"../../../../CameraPipeline.srcs/sources_1/imports/verilog_modules/pixel_parallel_sum.v" \
+"../../../../../verilog_modules/testbenches/axi_image_dissector_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

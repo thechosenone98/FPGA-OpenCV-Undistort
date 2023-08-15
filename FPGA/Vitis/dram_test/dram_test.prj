@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="dram_test" location="/home/zacharie/FPGA_Projects/CameraPipeline/dram_test" platform="/home/zacharie/FPGA_Projects/fpga-image-processing/FPGA/Vitis/image_pipeline_zybo_z7/export/image_pipeline_zybo_z7/image_pipeline_zybo_z7.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="dram_test_system" sysConfig="image_pipeline_zybo_z7" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" dimmRepoPath="" language="CPP" mssSignature="cc0016cded9ee4b675553254a343562b">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.415041434">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1521995602" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>
