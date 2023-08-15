@@ -1,20 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+title: >-
+  Open Source FPGA Implementation of the 12 parameter OpenCV
+  undistortion model
+message: 'If you use this software, please cite it as below.'
+type: software
 authors:
-- family-names: "McCormick"
-  given-names: "Zacharie"
-  orcid: "https://orcid.org/0000-0001-9802-6230" 
-title: "Open Source FPGA Implementation of the 12 parameter OpenCV undistortion model"
-version: 1.0.0
-date-released: 2023-08-15
-url: "https://github.com/thechosenone98/FPGA-OpenCV-Undistort"
-preferred-citation:
-  type: software
-  author: 
-  - family-names: "McCormick"
-    given-names: "Zacharie"
-    orcid: "https://orcid.org/0000-0001-9802-6230"
-  title: "Open Source FPGA Implementation of the 12 parameter OpenCV undistortion model"
-  year: 2023
-  month: 8
-  url: "https://github.com/thechosenone98/FPGA-OpenCV-Undistort"
+  - given-names: Zacharie
+    family-names: McCormick
+    email: zacfire1998@hotmail.fr
+    orcid: 'https://orcid.org/0000-0001-9802-6230'
+url: 'https://github.com/thechosenone98/FPGA-OpenCV-Undistort'
+abstract: >-
+  An open source FPGA implementation of the 12 parameter
+  OpenCV undistortion model made to run on a Digilent
+  Zybo-Z7 development board.
+keywords:
+  - FPGA
+  - OpenCV
+  - Undistortion
+  - Lens Rectification
+license: MIT
+date-released: '2023-08-15'
