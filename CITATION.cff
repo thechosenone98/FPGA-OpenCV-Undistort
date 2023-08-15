@@ -1,0 +1,8 @@
+@software{open_source_fpga_implementation_2023,
+  author = {McCormick, Zacharie},
+  month = {08},
+  title = {{Open Source FPGA Implementation of the 12 parameter OpenCV undistortion model}},
+  url = {https://github.com/thechosenone98/FPGA-OpenCV-Undistort},
+  version = {1.0.0},
+  year = {2023}
+}
